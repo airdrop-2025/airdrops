@@ -1,16 +1,8 @@
 const { ContractManager } = require("../../../src/modules/contractManager");
 const { WebClient } = require("../../../src/modules/webClient");
+const { MONAD_CONFIG } = require("../config");
 const fs = require("fs");
 const path = require("path");
-
-// 配置
-const MONAD_CONFIG = {
-  name: "Monad Testnet",
-  chainId: 10143,
-  symbol: "MON",
-  rpc: "https://testnet-rpc.monad.xyz",
-  explorer: "https://testnet-explorer.monad.xyz/tx/",
-};
 
 const CHECKIN_CONTRACT_ADDRESS = "0x703e753E9a2aCa1194DED65833EAec17dcFeAc1b";
 const CHECKIN_ABI = ["function checkIn()"];
