@@ -1,0 +1,27 @@
+{
+  "name": "stand-bot-template",
+  "version": "1.0.0",
+  "description": "项目交互模板，包含网页交互、合约交互和钱包功能",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "web3",
+    "ethereum",
+    "wallet",
+    "contract",
+    "proxy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "bip39": "^3.1.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
+    "socks-proxy-agent": "^8.0.2",
+    "user-agents": "^1.1.647"
+  }
+}
